@@ -1,0 +1,43 @@
+{
+  "name": "bobirrahmatov.tech",
+  "description": "personal website for chakra ui",
+  "version": "1.0",
+  "author": "bobirrahatov.tech",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "dayjs": "^1.10.7",
+    "framer-motion": "^5.5.5",
+    "gray-matter": "^4.0.3",
+    "image-size": "^1.0.0",
+    "next": "12.0.7",
+    "next-mdx-remote": "^3.0.8",
+    "next-seo": "^4.29.0",
+    "plaiceholder": "^2.2.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "reading-time": "^1.5.0",
+    "slugify": "^1.6.4",
+    "swr": "^1.2.2",
+    "unist-util-visit": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.5",
+    "@types/react": "17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "prettier": "^2.5.1",
+    "typescript": "4.5.4"
+  }
+}
